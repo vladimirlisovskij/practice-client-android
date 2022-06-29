@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_outer_margin">16dp</dimen>
+
+    <dimen name="default_inner_margin">8dp</dimen>
+    <dimen name="default_inner_margin_double">16dp</dimen>
+
+    <dimen name="default_form_element_width">300dp</dimen>
+
+    <dimen name="default_elevation">4dp</dimen>
+
+    <dimen name="default_icon_size">24dp</dimen>
+    <dimen name="default_icon_size_inverted">-24dp</dimen>
+</resources>

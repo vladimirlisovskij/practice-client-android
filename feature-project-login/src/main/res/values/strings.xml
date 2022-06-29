@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">Вход</string>
+    <string name="login_nick_name">Никнейм</string>
+    <string name="login_password">Пароль</string>
+    <string name="login_action">Войти</string>
+</resources>

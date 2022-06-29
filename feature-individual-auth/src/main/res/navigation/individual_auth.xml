@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/individual_auth"
+    app:startDestination="@id/individualAuthTypesFragment">
+
+    <fragment
+        android:id="@+id/individualAuthTypesFragment"
+        android:name="com.practice.client.feature.individual.auth.auth_types.IndividualAuthTypesFragment"
+        android:label="IndividualAuthTypesFragment"
+        tools:layout="@layout/individual_authorization">
+        <action
+            android:id="@+id/action_individualAuthTypesFragment_to_individualLogin"
+            app:destination="@id/individualLogin" />
+        <action
+            android:id="@+id/action_individualAuthTypesFragment_to_individualRegistration"
+            app:destination="@id/individualRegistration" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/individualLogin"
+        android:name="com.practice.client.feature.project.login.LoginFragment"
+        android:label="individualLogin"
+        tools:layout="@layout/login" />
+
+    <fragment
+        android:id="@+id/individualRegistration"
+        android:name="com.practice.client.feature.individual.auth.registration.IndividualRegistrationFragment"
+        android:label="individualRegistration"
+        tools:layout="@layout/individual_registration" />
+
+</navigation>

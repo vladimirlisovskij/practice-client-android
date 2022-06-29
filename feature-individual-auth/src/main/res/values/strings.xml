@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="individual_auth_title">Физические лица</string>
+    <string name="individual_auth_authorization">Для доступа к функционалу требуется авторизация</string>
+    <string name="individual_auth_login">Вход</string>
+    <string name="individual_auth_registration">Регистрация</string>
+    <string name="individual_auth_full_name">Ваше ФИО</string>
+    <string name="individual_auth_nick_name">Никнейм</string>
+    <string name="individual_auth_password">Пароль</string>
+    <string name="individual_auth_registration_action">Зарегистрироваться</string>
+    <string name="individual_auth_login_action">Войти</string>
+</resources>

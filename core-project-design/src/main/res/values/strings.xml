@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_understand">Понятно</string>
+    <string name="action_logout">Выйти из профиля</string>
+    <string name="action_refresh">Повторить попытку</string>
+
+    <string name="error_network_title">Что-то не так с подключением к серверу</string>
+    <string name="error_network_message">Проверьте подключение к сети или повторите попытку позже</string>
+
+    <string name="error_internal_title">На сервере какие-то прблемы</string>
+    <string name="error_internal_message">Сообщите о проблеме нам или повторите поптыку позже</string>
+
+    <string name="error_client_title">При выполении операции произошла ошибки</string>
+    <string name="error_client_message">Пожалуйста, сообщите о проблеме нам</string>
+
+    <string name="error_unauthorized_title">Что-то не так с данными вашего профиля</string>
+    <string name="error_unauthorized_description">Пожалуйста, повторить попытку входа</string>
+
+    <string name="error_request_title">Что-то пошло не так</string>
+
+    <string name="notification_error_loading">Не удалось загрузить</string>
+
+    <string name="profile">Профиль</string>
+</resources>

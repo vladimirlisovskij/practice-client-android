@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/individual_auth_registration"
+            app:navigationIcon="@drawable/ic_baseline_arrow_back_24" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/lProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilNickName"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="@dimen/default_form_element_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_inner_margin_double"
+            android:hint="@string/individual_auth_nick_name">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tietNickName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilFullName"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="@dimen/default_form_element_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_inner_margin"
+            android:hint="@string/individual_auth_full_name">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tietFullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPassword"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="@dimen/default_form_element_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_inner_margin"
+            android:hint="@string/individual_auth_password"
+            app:endIconMode="password_toggle">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tietPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/mbContinue"
+            android:layout_width="@dimen/default_form_element_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_inner_margin_double"
+            android:text="@string/individual_auth_registration_action" />
+
+
+    </LinearLayout>
+
+</FrameLayout>
